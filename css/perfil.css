@@ -1,0 +1,213 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #101010;
+}
+
+nav{
+    background: rgba(10, 10, 10, 75%);
+    position: fixed;
+    width: 100%;
+    padding: 30px;
+    z-index: 10;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.hero{
+    position: relative;
+}
+.hero img{
+    width: 100%;
+    height: 720px;
+    object-fit: cover;
+}
+
+.hero-img img{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    box-shadow: 0 0 10px  #ffffff;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    padding: 0 100px;
+}
+
+.hero-text {
+    background: rgba(10, 10, 10, 30%);
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero-text h1{
+    color: #13A8FE;
+    font-size: 2rem;
+}
+ion-icon{
+    font-size: 1.2rem;
+}
+p{
+    color: white;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.par-1, .par-2{
+    padding: 50px 200px;
+    text-align: center;
+    color: white;
+}
+
+.par-1 h3, .par-2 h3{
+    color: #1EFF05;
+    font-size: 1.5rem;
+}
+
+.par-1 p, .par-2 p {
+    max-width: calc(100%/2);
+    margin: 25px auto;
+}
+
+.par-2{
+    background: #000000;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 20px;
+}
+.icon img{
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin: 30px 10px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 30px;
+
+}
+
+.faq-card{
+    border-radius: 15px;
+    max-width: 270px;
+    background: #ffffff;
+}
+
+.question{
+    color: #13A8FE;
+    font-weight: 600;
+    padding: 30px;
+    height: 200px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.answer{
+    background-color: #13A8FE;
+    padding: 30px;
+    display: none;
+}
+
+.q-0:hover ~ .a-0{
+    display: block;
+}
+.q-1:hover ~ .a-1{
+    display: block;
+}
+.q-2:hover ~ .a-2{
+    display: block;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.skill-icon{
+    text-align: start !important;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: center;
+    position: relative;
+}
+.skill-background{
+    width: 450px; 
+    height: 20px;
+    background: white;
+    border-radius: 15px; 
+    position: relative;
+}                                      
+
+.skill-percentage{
+    background-color: #13A8FE;
+    position: absolute;
+    height: 20px;
+    border-radius: 15px; 
+}
+
+.skill-percentage-300{
+    width: 300px;
+}
+.skill-percentage-380{
+    width: 380px;
+}
+.skill-percentage-350{
+    width: 350px;
+}
+.skill-percentage-400{
+    width: 400px;
+}
+
+footer{
+    background: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
+    color: #000000 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
