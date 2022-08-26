@@ -213,7 +213,7 @@ footer p{
 }
 
 .container{
-  padding: 150px;  
+  padding: 150px 0px;  
 }
 
 .info-text{
@@ -300,6 +300,7 @@ input::placeholder{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 30px;
 }
 
 .card-proyect{
@@ -318,7 +319,7 @@ input::placeholder{
     width: 100%;
     height: unset;
     object-fit: contain;
-    border-radius: 50%;
+    border-radius: 50px;
 }
 
 .card-text p{
@@ -330,4 +331,41 @@ input::placeholder{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
     text-align: justify;
+}
+
+table thead{
+    background-color: #13A8FE;
+}
+
+table tbody{
+    color: #101010;
+    background: #ffffff;
+}
+
+.table-container{
+    margin-top: 30px;
+}
+.table-container table{
+    width: 100%;
+}
+
+td, th{
+    padding: 20px;
+}
+
+tbody tr :nth-child(1){
+    color: #13A8FE;
+}
+
+.form-container{
+    padding: 100px 200px;
+}
+
+.par-1.politics{
+    padding: 50px 0px;
+    text-align: justify;
+}
+
+.par-1.politics h3{
+    text-align: center;
 }
